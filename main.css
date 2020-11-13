@@ -2,12 +2,30 @@ body {
   background-image:url(assets/freedom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
 }
+
 p.uppercase {
   text-transform: uppercase;
   text-align: center;
-  font-size: 150%;
+  font-size: 250%;
   position: relative;
-  top: +50.5px;
-  
+  top: +55.5px; 
+}
+
+.name {
+  text-align: center;
+  position: relative;
+  top: +60.5px;
+}
+
+p.uppercase , .name {
+  font-family:  'Arsenal';
+  color: #191919;
+}
+.language {
+  top: +60px;
+  text-align: center;
+  position: relative;
 }
